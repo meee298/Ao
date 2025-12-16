@@ -1,0 +1,35 @@
+taskkill /F /IM node.exe 2>$null
+Remove-Item -Recurse -Force node_modules\.vite -ErrorAction SilentlyContinue
+npm cache clean --force
+npx vite --host --force --port 5173 --strict-port --clear-screen false
+
+
+
+{
+    "id": "the_batman",
+    "type": "movie",
+    "title": "The Batman",
+    "description": "في عامه الثاني من محاربة الجريمة، يكشف باتمان عن فساد في مدينة جوثام يتصل بعائلته أثناء مطاردته للقاتل المتسلسل المعروف باسم \"ريدلر\".",
+    "embedCode": "<iframe src=\"https://www.vidking.net/embed/movie/414906\" width=\"100%\" height=\"100%\" frameborder=\"0\" allowfullscreen></iframe>",
+    "iframeSrc": "",
+    "thumbnailUrl": "https://image.tmdb.org/t/p/w500/74xTEgt7R36Fpooo50x9TfdlnJR.jpg",
+    "backdropUrl": "https://image.tmdb.org/t/p/original/5P8SmMzSNYikXpxil6BYzJ16611.jpg",
+    "rating": "13+",
+    "genre": [
+      "أكشن",
+      "جريمة",
+      "غموض"
+    ],
+    "year": 2022,
+    "duration": "176 دقيقة",
+    "director": "Matt Reeves",
+    "cast": [
+      "Robert Pattinson",
+      "Zoë Kravitz"
+    ],
+    "views": 520000,
+    "addedAt": "2023-08-05",
+    "isFeatured": true,
+    "quality": "4K",
+    "additionalServers": []
+  },
