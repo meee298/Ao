@@ -20,6 +20,6 @@ export default defineConfig(({ mode }) => {
         }
       },
       // 👇 ADD THIS FOR GITHUB PAGES
-      base: '/Ao/',
+      base: '/',
     };
 });
